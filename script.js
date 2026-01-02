@@ -25,6 +25,7 @@ function fetching(id) {
 
             torolHibat();
             megjelenites(car);
+            console.log(car);
         })
         .catch(error => {
             kiirHibat("Hiba történt: " + error.message);
